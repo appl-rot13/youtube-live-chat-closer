@@ -2,6 +2,8 @@
 
 # YouTube Live Chat Closer
 
+Chrome Extension for Close YouTube Live Chat.
+
 ## License
 
 This software is licensed under the [Unlicense](LICENSE).
