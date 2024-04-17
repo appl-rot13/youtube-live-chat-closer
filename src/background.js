@@ -15,9 +15,7 @@
         chrome.storage.local.get([isEnabled]).then(ret => {
           sendResponse((isEnabled in ret) ? ret[isEnabled] : true);
         });
-        break;
+        return true;
     }
-
-    return true;
   });
 })();
