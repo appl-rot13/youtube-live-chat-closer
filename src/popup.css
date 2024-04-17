@@ -1,0 +1,46 @@
+
+.toggle_button {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.toggle_button div {
+  position: relative;
+  width: 50px;
+  height: 25px;
+  border-radius: 25px;
+  background-color: #dddddd;
+  transition: background-color .2s;
+}
+
+.toggle_button:has(:checked) div {
+  background-color: #4bd865;
+}
+
+.toggle_button div::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgb(0 0 0 / 20%);
+  background-color: #ffffff;
+  content: '';
+  transition: left .2s;
+}
+
+.toggle_button:has(:checked) div::after {
+  left: 25px;
+}
+
+.toggle_button input {
+  display: none;
+}
+
+.toggle_button span {
+  margin-left: 10px;
+  white-space: nowrap;
+}
