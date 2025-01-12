@@ -1,5 +1,7 @@
 [English](README.md) | [日本語](README.ja.md)
 
+***This repository has moved to [youtube-helper](../../../youtube-helper).***
+
 # YouTube Live Chat Closer
 
 Chrome Extension for Close YouTube Live Chat.

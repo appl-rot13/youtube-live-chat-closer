@@ -1,5 +1,7 @@
 [English](README.md) | [日本語](README.ja.md)
 
+***本リポジトリは [youtube-helper](../../../youtube-helper) に移動しました。***
+
 # YouTube Live Chat Closer
 
 YouTube Liveのチャット欄を非表示にするChrome拡張機能。
